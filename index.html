@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Alex Rivera – Full-Stack Developer"/>
+  <title>Alex Rivera</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+
+<!-- NAV -->
+<nav>
+  <span class="logo">Alex<span>Rivera</span></span>
+  <ul class="nav-links">
+    <li><a href="#projects">Work</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero">
+    <p class="label">Full-Stack Developer</p>
+
+    <div class="hero-top">
+      <div class="avatar-wrap">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <!-- Replace the src below with your actual photo URL or path -->
+            <img
+              src="https://api.dicebear.com/9.x/pixel-art/svg?seed=AlexRivera&backgroundColor=1a0a2e&skinColor=f5cfa0"
+              alt="Alex Rivera profile photo"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+            />
+            <div class="avatar-fallback" style="display:none">AR</div>
+          </div>
+        </div>
+        <div class="avatar-status" title="Available for work"></div>
+      </div>
+
+      <div class="hero-info">
+        <div class="hero-name">Alex Rivera</div>
+        <div class="hero-role">Full-Stack Developer · Cloudflare Specialist</div>
+        <div class="hero-location">📍 Cebu City, Philippines · Open to Remote</div>
+      </div>
+    </div>
+
+    <h1>I build <em>fast,</em> clean<br>web applications.</h1>
+    <p class="hook">Full-Stack Developer specializing in high-performance web apps and cloud-native architecture — turning complex problems into clean, scalable solutions that work under real-world load.</p>
+
+    <div class="badges">
+      <span class="badge">React</span>
+      <span class="badge">Node.js</span>
+      <span class="badge">TypeScript</span>
+      <span class="badge">PostgreSQL</span>
+      <span class="badge">Cloudflare</span>
+      <span class="badge">Python</span>
+    </div>
+
+    <div class="btn-row">
+      <a href="#projects" class="btn">See My Work →</a>
+      <a href="https://linkedin.com/in/yourprofile" class="btn-ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/yourusername" class="btn-ghost" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="label">Projects</p>
+    <h2>Selected Work</h2>
+
+    <div class="project">
+      <p class="project-title">ShopFlow — E-Commerce Platform</p>
+      <p class="project-desc"><strong>Problem:</strong> Client's store crashed under 500+ users. <strong>Solution:</strong> Rebuilt on React + Cloudflare Workers with edge-cached APIs — TTFB dropped from 3.2s to 180ms.</p>
+      <div class="project-stack"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Cloudflare Workers</span><span class="tag">PostgreSQL</span></div>
+      <div class="project-links"><a href="#">Live Demo ↗</a><a href="https://github.com/yourusername">GitHub ↗</a></div>
+    </div>
+
+    <div class="project">
+      <p class="project-title">DataBoard — Real-Time Analytics</p>
+      <p class="project-desc"><strong>Problem:</strong> Team needed live KPIs without a costly BI tool. <strong>Solution:</strong> Custom dashboard using WebSockets + Cloudflare D1, delivering real-time metrics at zero per-query cost.</p>
+      <div class="project-stack"><span class="tag">Vue 3</span><span class="tag">WebSockets</span><span class="tag">Cloudflare D1</span><span class="tag">Chart.js</span></div>
+      <div class="project-links"><a href="#">Live Demo ↗</a><a href="https://github.com/yourusername">GitHub ↗</a></div>
+    </div>
+
+    <div class="project">
+      <p class="project-title">AuthKit — JWT Auth Library</p>
+      <p class="project-desc"><strong>Problem:</strong> Repetitive, insecure auth boilerplate across 8 internal projects. <strong>Solution:</strong> Open-source library handling JWT rotation, OAuth 2.0, and RBAC — 220 GitHub stars.</p>
+      <div class="project-stack"><span class="tag">TypeScript</span><span class="tag">JWT</span><span class="tag">OAuth 2.0</span><span class="tag">npm</span></div>
+      <div class="project-links"><a href="https://github.com/yourusername">GitHub (220★) ↗</a></div>
+    </div>
+
+    <div class="project">
+      <p class="project-title">TaskMate — Offline PWA</p>
+      <p class="project-desc"><strong>Problem:</strong> Team needed a task app on spotty mobile connections. <strong>Solution:</strong> PWA with service workers + IndexedDB sync — 100% offline functionality.</p>
+      <div class="project-stack"><span class="tag">React</span><span class="tag">Service Workers</span><span class="tag">IndexedDB</span><span class="tag">PWA</span></div>
+      <div class="project-links"><a href="#">Install PWA ↗</a><a href="https://github.com/yourusername">GitHub ↗</a></div>
+    </div>
+
+    <div class="project">
+      <p class="project-title">DocAI — Document Intelligence API</p>
+      <p class="project-desc"><strong>Problem:</strong> HR spent 6 hrs/week parsing PDFs manually. <strong>Solution:</strong> REST API using AI to extract structured data from PDFs — processing time cut by 94%.</p>
+      <div class="project-stack"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Claude API</span><span class="tag">Docker</span></div>
+      <div class="project-links"><a href="#">API Docs ↗</a><a href="https://github.com/yourusername">GitHub ↗</a></div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <p class="label">Resume</p>
+    <h2>Skills & Experience</h2>
+
+    <div class="skill-group">
+      <p class="skill-group-name">Frontend</p>
+      <div class="skill-list"><span class="skill">React</span><span class="skill">Vue 3</span><span class="skill">TypeScript</span><span class="skill">HTML/CSS</span><span class="skill">Tailwind</span></div>
+    </div>
+    <div class="skill-group">
+      <p class="skill-group-name">Backend</p>
+      <div class="skill-list"><span class="skill">Node.js</span><span class="skill">Python</span><span class="skill">FastAPI</span><span class="skill">REST APIs</span><span class="skill">WebSockets</span></div>
+    </div>
+    <div class="skill-group">
+      <p class="skill-group-name">Cloud & Tools</p>
+      <div class="skill-list"><span class="skill">PostgreSQL</span><span class="skill">Cloudflare D1</span><span class="skill">Workers</span><span class="skill">Docker</span><span class="skill">AWS</span><span class="skill">CI/CD</span><span class="skill">Git</span></div>
+    </div>
+
+    <div style="margin-top:2.2rem">
+      <div class="exp">
+        <div class="exp-top"><span class="exp-role">Junior Full-Stack Developer</span><span class="exp-date">Jan 2024 – Present</span></div>
+        <p class="exp-company">TechBridge Solutions · Cebu City</p>
+        <p class="exp-desc">Built 4 client web apps in React + Node.js. Reduced average load time 40% via code-splitting. Implemented GitHub Actions CI/CD pipelines.</p>
+      </div>
+      <div class="exp">
+        <div class="exp-top"><span class="exp-role">Web Development Intern</span><span class="exp-date">Jun – Dec 2023</span></div>
+        <p class="exp-company">Cebu Digital Agency</p>
+        <p class="exp-desc">Contributed to 3 e-commerce redesigns. Wrote Jest unit tests achieving 85% coverage. Worked in Agile sprints.</p>
+      </div>
+      <div class="exp">
+        <div class="exp-top"><span class="exp-role">B.S. Information Technology</span><span class="exp-date">2020 – 2024</span></div>
+        <p class="exp-company">University of Cebu · GPA 3.8</p>
+        <p class="exp-desc">Capstone: real-time campus event system used by 1,200+ students. Elected Technical Lead, IT Student Organization.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRUCTURE + LIGHTHOUSE -->
+  <section id="structure">
+    <p class="label">Architecture</p>
+    <h2>File & Folder Structure</h2>
+
+    <div class="tree-wrap">
+      <p class="tree-title">📁 alex-portfolio / GitHub Repository</p>
+      <div class="tree">
+        <div><span class="fn">alex-portfolio/</span></div>
+        <div><span class="fd">├── </span><span class="fh">index.html</span></div>
+        <div><span class="fd">├── </span><span class="fm">README.md</span></div>
+        <div><span class="fd">├── </span><span class="fg">wrangler.toml</span></div>
+        <div><span class="fd">├── </span><span class="fg">.gitignore</span></div>
+        <div><span class="fd">├── </span><span class="fn">src/</span></div>
+        <div><span class="fd">│   ├── </span><span class="fn">css/</span></div>
+        <div><span class="fd">│   │   ├── </span><span class="fc">main.css</span></div>
+        <div><span class="fd">│   │   └── </span><span class="fc">responsive.css</span></div>
+        <div><span class="fd">│   ├── </span><span class="fn">js/</span></div>
+        <div><span class="fd">│   │   ├── </span><span class="fj">app.js</span></div>
+        <div><span class="fd">│   │   └── </span><span class="fj">contact.js</span></div>
+        <div><span class="fd">│   └── </span><span class="fn">assets/</span></div>
+        <div><span class="fd">├── </span><span class="fn">workers/</span></div>
+        <div><span class="fd">│   ├── </span><span class="fj">contact-handler.js</span></div>
+        <div><span class="fd">│   └── </span><span class="fj">projects-api.js</span></div>
+        <div><span class="fd">├── </span><span class="fn">database/</span></div>
+        <div><span class="fd">│   ├── </span><span class="fs">schema.sql</span></div>
+        <div><span class="fd">│   └── </span><span class="fs">seed.sql</span></div>
+        <div><span class="fd">├── </span><span class="fn">.github/workflows/</span></div>
+        <div><span class="fd">│   └── </span><span class="fg">deploy.yml</span></div>
+        <div><span class="fd">└── </span><span class="fn">docs/</span></div>
+        <div><span class="fd">    ├── </span><span class="fm">DEPLOYMENT.md</span></div>
+        <div><span class="fd">    └── </span><span class="fm">ARCHITECTURE.md</span></div>
+      </div>
+    </div>
+
+    <div class="lh-wrap">
+      <div class="lh-header-row">
+        <p class="lh-title">🔦 Lighthouse Report</p>
+        <span class="lh-url">alexrivera.pages.dev</span>
+      </div>
+      <div class="lh-scores">
+        <div class="lh-score"><div class="lh-num green">96</div><div class="lh-cat">Performance</div></div>
+        <div class="lh-score"><div class="lh-num green">98</div><div class="lh-cat">Accessibility</div></div>
+        <div class="lh-score"><div class="lh-num green">100</div><div class="lh-cat">Best Practices</div></div>
+        <div class="lh-score"><div class="lh-num orange">92</div><div class="lh-cat">SEO</div></div>
+      </div>
+      <div class="lh-vitals">
+        <div class="lh-vital"><div class="lh-vital-val">0.6s</div><div class="lh-vital-key">FCP</div></div>
+        <div class="lh-vital"><div class="lh-vital-val">1.2s</div><div class="lh-vital-key">LCP</div></div>
+        <div class="lh-vital"><div class="lh-vital-val">10ms</div><div class="lh-vital-key">TBT</div></div>
+        <div class="lh-vital"><div class="lh-vital-val">0.002</div><div class="lh-vital-key">CLS</div></div>
+        <div class="lh-vital"><div class="lh-vital-val">0.9s</div><div class="lh-vital-key">Speed Index</div></div>
+        <div class="lh-vital"><div class="lh-vital-val">1.4s</div><div class="lh-vital-key">TTI</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="label">Contact</p>
+    <h2>Let's Talk</h2>
+    <p style="color:var(--muted);font-size:.95rem;margin-bottom:1.8rem;">Open to full-time roles, contracts, and collaborations. I respond within 24 hours.</p>
+
+    <div class="contact-methods">
+      <div class="c-method">
+        <div class="c-icon">💼</div>
+        <div><div class="c-label">LinkedIn</div><div class="c-val">linkedin.com/in/yourprofile</div></div>
+      </div>
+      <div class="c-method">
+        <div class="c-icon">🐙</div>
+        <div><div class="c-label">GitHub</div><div class="c-val">github.com/yourusername</div></div>
+      </div>
+      <div class="c-method">
+        <div class="c-icon">📍</div>
+        <div><div class="c-label">Location</div><div class="c-val">Cebu City, Philippines · Remote OK</div></div>
+      </div>
+    </div>
+
+    <form id="contactForm" onsubmit="handleSubmit(event)">
+      <div class="form-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Your name" required/>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@email.com" required/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="What's on your mind?" required></textarea>
+      </div>
+      <button type="submit" class="btn" id="submitBtn">Send Message →</button>
+      <p class="form-note">🔒 Sent via Cloudflare Worker — your email is never exposed in source code.</p>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <span>© 2025 Alex Rivera · Cebu, PH</span>
+  <span>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a> ·
+    <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+  </span>
+</footer>
+
+<script>
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const btn = document.getElementById('submitBtn');
+    btn.textContent = 'Sending…'; btn.disabled = true;
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: document.getElementById('name').value,
+          email: document.getElementById('email').value,
+          message: document.getElementById('message').value,
+        }),
+      });
+      btn.textContent = res.ok ? '✓ Message Sent!' : '✗ Failed — try again';
+      if (res.ok) document.getElementById('contactForm').reset();
+    } catch { btn.textContent = '✗ Failed — try again'; }
+    btn.disabled = false;
+    setTimeout(() => btn.textContent = 'Send Message →', 3500);
+  }
+</script>
+</body>
+</html>
