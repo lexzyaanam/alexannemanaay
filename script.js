@@ -21,6 +21,6 @@ async function handleSubmit(e) {
     btn.textContent = '✗ Failed — try again';
   }
 
-  btn.disabled = false;
+  btn.disabled = true;
   setTimeout(() => btn.textContent = 'Send Message →', 3500);
 }
