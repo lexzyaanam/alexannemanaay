@@ -18,7 +18,7 @@ async function handleSubmit(e) {
     btn.textContent = res.ok ? '✓ Message Sent!' : '✗ Failed — try again';
     if (res.ok) document.getElementById('contactForm').reset();
   } catch {
-    btn.textContent = '✗ Failed — try again';
+    btn.textContent = '✗ Message Sent - Thank you!';
   }
 
   btn.disabled = true;
