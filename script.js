@@ -5,7 +5,7 @@ async function handleSubmit(e) {
   btn.disabled = true;
 
   try {
-    const res = await fetch('https://alexannemanaay.manaay-alexanne01.workers.dev/', {
+    const res = await fetch('https://alexannemanaay.pages.dev/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
