@@ -326,51 +326,6 @@ h2 {
 .exp-company { font-size: .82rem; color: var(--neon2); margin-bottom: .35rem; text-shadow: 0 0 6px var(--glow-soft); }
 .exp-desc { font-size: .875rem; color: var(--muted); line-height: 1.65; }
 
-/* ─── LIGHTHOUSE ─── */
-.lh-wrap {
-  margin-top: 2rem;
-  background: linear-gradient(135deg, rgba(255,45,139,0.08), rgba(255,110,199,0.05));
-  border: 1px solid rgba(255,45,139,0.3);
-  border-radius: 8px;
-  padding: 1.6rem;
-  box-shadow: 0 0 30px rgba(255,45,139,0.06);
-}
-.lh-header-row {
-  display: flex; align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.4rem; flex-wrap: wrap; gap: .5rem;
-}
-.lh-title {
-  font-family: 'Syne', sans-serif;
-  font-size: 1rem; font-weight: 700; color: var(--white);
-}
-.lh-url {
-  font-size: .75rem; color: var(--neon2);
-  text-shadow: 0 0 6px var(--glow-soft);
-}
-.lh-scores { display: flex; gap: 1rem; flex-wrap: wrap; }
-.lh-score {
-  background: rgba(0,0,0,0.4);
-  border: 1px solid rgba(255,45,139,0.25);
-  border-radius: 6px; padding: .9rem 1rem;
-  text-align: center; flex: 1; min-width: 85px;
-}
-.lh-num {
-  font-family: 'Syne', sans-serif;
-  font-size: 2rem; font-weight: 800; line-height: 1;
-}
-.green { color: #00ff88; text-shadow: 0 0 12px rgba(0,255,136,0.6); }
-.orange { color: #ffcc44; text-shadow: 0 0 12px rgba(255,204,68,0.5); }
-.lh-cat { font-size: .68rem; color: var(--muted); margin-top: .3rem; letter-spacing: .5px; }
-.lh-vitals { display: grid; grid-template-columns: repeat(3, 1fr); gap: .7rem; margin-top: 1rem; }
-.lh-vital {
-  background: rgba(0,0,0,0.35);
-  border: 1px solid rgba(255,45,139,0.15);
-  border-radius: 5px; padding: .6rem .8rem;
-}
-.lh-vital-val { font-family: 'Syne', sans-serif; font-weight: 700; font-size: .9rem; color: #00ff88; text-shadow: 0 0 8px rgba(0,255,136,0.5); }
-.lh-vital-key { font-size: .67rem; color: var(--muted); margin-top: .1rem; }
-
 /* ─── CONTACT FORM ─── */
 .form-group { margin-bottom: 1rem; }
 label { display: block; font-size: .78rem; font-weight: 600; color: var(--muted); margin-bottom: .35rem; letter-spacing: .5px; text-transform: uppercase; }
