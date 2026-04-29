@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Alexanne Mana-ay – Student"/>
   <title>Alexanne Mana-ay</title>
-   <div class="profile">
-    <img src="your-photo.jpg" alt="Profile">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -33,10 +34,10 @@
           <div class="avatar-inner">
             <img
               src="https://api.dicebear.com/9.x/pixel-art/svg?seed=AlexRivera&backgroundColor=1a0a2e&skinColor=f5cfa0"
-              alt="Alex Rivera profile photo"
+              alt="Alexanne Mana-ay profile photo"
               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
             />
-            <div class="avatar-fallback" style="display:none">AR</div>
+            <div class="avatar-fallback" style="display:none">AM</div>
           </div>
         </div>
         <div class="avatar-status" title="Available for work"></div>
@@ -84,22 +85,23 @@
       <p class="project-title">Ghostly Adventure</p>
       <p class="project-desc"><strong>Problem:</strong> Team needed live KPIs without a costly BI tool. <strong>Solution:</strong> Custom dashboard using WebSockets + Cloudflare D1, delivering real-time metrics at zero per-query cost.</p>
       <div class="project-stack"><span class="tag">Vue 3</span><span class="tag">WebSockets</span><span class="tag">Cloudflare D1</span><span class="tag">Chart.js</span></div>
-      <div class="project-links"><a href="#">Live Demo ↗</a><a href="https://github.com/yourusername">GitHub ↗</a></div>
+      <div class="project-links"><a href="#">Live Demo ↗</a><a href="https://github.com/lexzyaanam">GitHub ↗</a></div>
     </div>
 
     <div class="project">
       <p class="project-title">AuthKit — JWT Auth Library</p>
       <p class="project-desc"><strong>Problem:</strong> Repetitive, insecure auth boilerplate across 8 internal projects. <strong>Solution:</strong> Open-source library handling JWT rotation, OAuth 2.0, and RBAC — 220 GitHub stars.</p>
       <div class="project-stack"><span class="tag">TypeScript</span><span class="tag">JWT</span><span class="tag">OAuth 2.0</span><span class="tag">npm</span></div>
-      <div class="project-links"><a href="https://github.com/yourusername">GitHub (220★) ↗</a></div>
+      <div class="project-links"><a href="https://github.com/lexzyaanam">GitHub (220★) ↗</a></div>
     </div>
 
     <div class="project">
       <p class="project-title">TaskMate — Offline PWA</p>
       <p class="project-desc"><strong>Problem:</strong> Team needed a task app on spotty mobile connections. <strong>Solution:</strong> PWA with service workers + IndexedDB sync — 100% offline functionality.</p>
       <div class="project-stack"><span class="tag">React</span><span class="tag">Service Workers</span><span class="tag">IndexedDB</span><span class="tag">PWA</span></div>
-      <div class="project-links"><a href="#">Install PWA ↗</a><a href="https://github.com/yourusername">GitHub ↗</a></div>
+      <div class="project-links"><a href="#">Install PWA ↗</a><a href="https://github.com/lexzyaanam">GitHub ↗</a></div>
     </div>
+  </section>
 
   <!-- RESUME -->
   <section id="resume">
@@ -115,19 +117,19 @@
       <div class="skill-list"><span class="skill">Node.js</span><span class="skill">Python</span><span class="skill">REST APIs</span><span class="skill">Java</span><span class="skill">JavaScript</span></div>
     </div>
 
-        <div class="exp">
+    <div class="exp">
       <div class="exp-top"><span class="exp-role">IT Student / Aspiring Developer</span><span class="exp-date">Self-Projects & Academic Work | 2023 – Present</span></div>
       <p class="exp-company">Central Philippine University</p>
-<p class="exp-decription"> ● Developed responsive websites using HTML, CSS, and JavaScript, focusing on clean UI/UX design.
-                           ● Created a personal portfolio website to showcase projects, skills, and achievements.
-                           ● Built dynamic web applications with basic CRUD functionality using JavaScript and JSON.
-                           ● Collaborated with classmates on group projects, applying version control (Git) and teamwork practices.
-                           ● Designed and implemented simple database structures for school systems using MySQL / Firebase.
-                           ● Debugged and optimized code to improve performance and user experience</p>
+      <p class="exp-desc">
+        ● Developed responsive websites using HTML, CSS, and JavaScript, focusing on clean UI/UX design.<br>
+        ● Created a personal portfolio website to showcase projects, skills, and achievements.<br>
+        ● Built dynamic web applications with basic CRUD functionality using JavaScript and JSON.<br>
+        ● Collaborated with classmates on group projects, applying version control (Git) and teamwork practices.<br>
+        ● Designed and implemented simple database structures for school systems using MySQL / Firebase.<br>
+        ● Debugged and optimized code to improve performance and user experience.
+      </p>
 
-
-          
-      <div class="exp-top"><span class="exp-role">B.S. Information Technology</span><span class="exp-date">2023 – 2027</span></div>
+      <div class="exp-top" style="margin-top:1.2rem"><span class="exp-role">B.S. Information Technology</span><span class="exp-date">2023 – 2027</span></div>
       <p class="exp-company">Central Philippine University</p>
       <p class="exp-desc">Capstone: Information System for MSWDO, San Enrique Negros Occidental</p>
     </div>
@@ -142,23 +144,29 @@
     <div class="contact-methods">
       <div class="c-method">
         <div class="c-icon">💼</div>
-        <div><div class="c-label">LinkedIn</div></div>
-         <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" target="_blank" rel="noopener">https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/</a>
+        <div>
+          <div class="c-label">LinkedIn</div>
+          <div class="c-val"><a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" target="_blank" rel="noopener">linkedin.com/in/mana-ay-alexanne-s-bb6b40330</a></div>
+        </div>
       </div>
       <div class="c-method">
         <div class="c-icon">📂</div>
-        <div><div class="c-label">GitHub</div></div>
-        <a href="https://github.com/lexzyaanam" target="_blank" rel="noopener">https://github.com/lexzyaanam</a>
+        <div>
+          <div class="c-label">GitHub</div>
+          <div class="c-val"><a href="https://github.com/lexzyaanam" target="_blank" rel="noopener">github.com/lexzyaanam</a></div>
+        </div>
       </div>
-
       <div class="c-method">
         <div class="c-icon">📩</div>
-        <div><div class="c-label">Email Address</div><div class="c-val">manaay.alexanne01@gmail.com</div></div>
+        <div>
+          <div class="c-label">Email Address</div>
+          <div class="c-val">manaay.alexanne01@gmail.com</div>
+        </div>
       </div>
     </div>
 
     <form id="contactForm" onsubmit="handleSubmit(event)">
-      <div class="form-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+      <div class="form-grid">
         <div class="form-group">
           <label for="name">Name</label>
           <input id="name" type="text" placeholder="Your name" required/>
@@ -182,7 +190,7 @@
 <footer>
   <span>© 2026 Alexanne Mana-ay · Iloilo PH</span>
   <span>
-    <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" target="_blank" rel="noopener">LinkedIn</a> 
+    <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://github.com/lexzyaanam" target="_blank" rel="noopener">GitHub</a>
   </span>
 </footer>
