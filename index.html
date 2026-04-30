@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
 
 <!-- NAV -->
@@ -26,42 +27,50 @@
 
 <main>
 
-<!-- HERO -->
-<div class="avatar-wrap">
-  <div class="avatar-ring">
-    <div class="avatar-inner">
-      <img src="project1.jpg" alt="Profile Picture">
+<!-- HERO (FIXED STRUCTURE) -->
+<section id="hero">
+
+  <div class="hero-top">
+
+    <!-- PROFILE PIC -->
+    <div class="avatar-wrap">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="project1.jpg" alt="Profile Picture">
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
+    <!-- INFO -->
     <div class="hero-info">
       <div class="hero-name">Alexanne Mana-ay</div>
       <div class="hero-role">Student</div>
       <div class="hero-course">Bachelor of Science in Information Technology</div>
       <div class="hero-location">📍 Iloilo City, Philippines</div>
     </div>
+
   </div>
 
   <h1>I build clean and aesthetic <br>web applications.</h1>
 
   <p class="hook">
     I am an aspiring IT student passionate about building user-focused digital solutions.
-    Skilled in HTML, CSS, JavaScript, and basic backend tools with knowledge in troubleshooting and system maintenance.
   </p>
 
   <div class="badges">
-    <span class="badge">React</span>
-    <span class="badge">Node.js</span>
-    <span class="badge">TypeScript</span>
-    <span class="badge">Cloudflare</span>
+    <span class="badge">HTML</span>
+    <span class="badge">CSS</span>
+    <span class="badge">JavaScript</span>
     <span class="badge">Python</span>
+    <span class="badge">Cloudflare</span>
   </div>
 
   <div class="btn-row">
     <a href="#projects" class="btn">See My Work</a>
-    <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" class="btn-ghost" target="_blank">LinkedIn ↗</a>
-    <a href="https://github.com/lexzyaanam" class="btn-ghost" target="_blank">GitHub ↗</a>
+    <a href="https://www.linkedin.com/" class="btn-ghost" target="_blank">LinkedIn ↗</a>
+    <a href="https://github.com/" class="btn-ghost" target="_blank">GitHub ↗</a>
   </div>
+
 </section>
 
 <!-- PROJECTS -->
@@ -71,33 +80,13 @@
 
   <div class="project">
     <p class="project-title">Avatar Mech Store</p>
-    <p class="project-desc">
-      <strong>Problem:</strong> Lacks engaging responsive design for showcasing mech products.
-    </p>
-    <div class="project-stack">
-      <span class="tag">HTML</span>
-      <span class="tag">CSS</span>
-      <span class="tag">JavaScript</span>
-    </div>
-    <div class="project-links">
-      <a href="https://lexzyaanam.github.io/">GitHub ↗</a>
-    </div>
+    <p class="project-desc">Responsive mech product showcase website.</p>
   </div>
 
   <div class="project">
     <p class="project-title">Ghostly Adventure</p>
-    <p class="project-desc">
-      <strong>Problem:</strong> Lacks immersive spooky interaction design.
-    </p>
-    <div class="project-stack">
-      <span class="tag">HTML</span>
-      <span class="tag">CSS</span>
-    </div>
-    <div class="project-links">
-      <a href="https://github.com/lexzyaanam">GitHub ↗</a>
-    </div>
+    <p class="project-desc">Interactive spooky themed web experience.</p>
   </div>
-
 </section>
 
 <!-- RESUME -->
@@ -105,71 +94,28 @@
   <p class="label">Resume</p>
   <h2>Skills & Experience</h2>
 
-  <div class="skill-group">
-    <p class="skill-group-name">Frontend</p>
-    <div class="skill-list">
-      <span class="skill">HTML</span>
-      <span class="skill">CSS</span>
-      <span class="skill">JavaScript</span>
-    </div>
-  </div>
-
-  <div class="skill-group">
-    <p class="skill-group-name">Backend</p>
-    <div class="skill-list">
-      <span class="skill">Node.js</span>
-      <span class="skill">Python</span>
-      <span class="skill">Java</span>
-    </div>
+  <div class="skill-list">
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+    <span class="skill">JavaScript</span>
   </div>
 
   <div class="exp">
-    <div class="exp-top">
-      <span class="exp-role">Self-Projects & Academic Work | 2023 – Present</span>
-      <span class="exp-date">2023 – Present</span>
-    </div>
-    <p class="exp-company">Central Philippine University</p>
+    <p class="exp-role">Self-Projects & Academic Work</p>
     <p class="exp-desc">
-      • Developed responsive websites using HTML, CSS, and JavaScript, focusing on clean UI/UX design <br>
-      • Created a personal portfolio website to showcase projects, skills, and achievements<br>
-      • Built dynamic web applications with basic CRUD functionality using JavaScript and JSON <br>
-      • Collaborated with classmates on group projects, applying Git and teamwork practices<br>
-      • Designed and implemented simple database structures using MySQL / Firebase<br>
-      • Debugged and optimized code to improve performance and user experience
+      Developed responsive websites using HTML, CSS, and JavaScript.<br>
+      Built CRUD applications and portfolio projects.<br>
+      Learned Git, databases, and web development fundamentals.
     </p>
   </div>
 </section>
 
-<!-- CONTACT -->
+<!-- CONTACT (FIXED - ONLY ONE SECTION) -->
 <section id="contact">
   <p class="label">Contact</p>
   <h2>Let's Talk</h2>
 
   <div class="contact-methods">
-
-    <div class="c-method">
-      <div class="c-icon">💼</div>
-      <div>
-        <div class="c-label">LinkedIn</div>
-        <div class="c-val">
-          <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" target="_blank">
-            linkedin.com/in/mana-ay-alexanne
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="c-method">
-      <div class="c-icon">📂</div>
-      <div>
-        <div class="c-label">GitHub</div>
-        <div class="c-val">
-          <a href="https://github.com/lexzyaanam" target="_blank">
-            github.com/lexzyaanam
-          </a>
-        </div>
-      </div>
-    </div>
 
     <div class="c-method">
       <div class="c-icon">📩</div>
@@ -181,26 +127,30 @@
 
   </div>
 
-<!-- CONTACT SECTION -->
-<section id="contact">
+  <!-- FORM (FIXED) -->
+  <form class="form-grid"
+        action="https://formsubmit.co/manaay.alexanne01@gmail.com"
+        method="POST">
 
-  <h2>Contact Me</h2>
-
-  <!-- WORKING FORM -->
-  <form action="https://formsubmit.co/manaay.alexanne01@gmail.com" method="POST">
-    
-    <!-- FormSubmit Settings -->
     <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
 
-    <!-- Inputs -->
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
 
-    <!-- Button -->
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="form-group">
+      <label>Message</label>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+    </div>
+
     <button type="submit" class="btn">Send Message →</button>
-    
+
   </form>
 
 </section>
@@ -211,8 +161,8 @@
 <footer>
   <span>© 2026 Alexanne Mana-ay · Iloilo PH</span>
   <span>
-    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
     <a href="https://github.com/" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
   </span>
 </footer>
 
