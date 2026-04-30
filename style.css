@@ -83,34 +83,65 @@ section {
   gap: 1.5rem;
   flex-wrap: wrap;
 }
+/* ─── PROFILE PIC (NEON RING FIXED) ─── */
 
-/* PROFILE PIC FIX */
 .avatar-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* MAIN RING */
 .avatar-ring {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   padding: 3px;
-  background: conic-gradient(var(--neon), var(--neon2), var(--neon3));
-  box-shadow: 0 0 20px var(--glow);
+
+  background: conic-gradient(
+    var(--neon),
+    var(--neon2),
+    var(--neon3),
+    var(--neon)
+  );
+
+  box-shadow: 0 0 25px var(--glow),
+              0 0 60px rgba(255,45,139,0.25);
+
+  animation: spinRing 6s linear infinite;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* ROTATION FIX */
+@keyframes spinRing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* INNER CIRCLE (IMPORTANT FIX) */
 .avatar-inner {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   overflow: hidden;
   background: var(--card);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* counter-rotation so image stays straight */
+  transform: rotate(0deg);
 }
 
+/* PROFILE IMAGE FIX */
 .avatar-inner img {
   width: 100%;
   height: 100%;
