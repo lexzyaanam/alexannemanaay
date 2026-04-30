@@ -752,8 +752,8 @@ h2 {
 /* ─── CONTACT FORM ─── */
 .form-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  grid-template-columns: 6fr 6fr;
+  gap: 5rem;
 }
 
 .form-group {
