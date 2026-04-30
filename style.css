@@ -106,8 +106,7 @@ nav {
 
   border-radius: 50%;
 
-  animation: spinRing 6s linear infinite;
-  will-change: transform;
+  
 }
 
 /* ROTATION */
