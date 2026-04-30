@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Alexanne Mana-ay – Student"/>
-  <title>Alexanne Mana-ay</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Alexanne Mana-ay – Student"/>
+<title>Alexanne Mana-ay</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
 <!-- NAV -->
 <nav>
-  <span class="logo">Alexanne<span> Mana-ay</span></span>
+  <span class="logo">Alexanne <span>Mana-ay</span></span>
+
   <ul class="nav-links">
     <li><a href="#projects">Work</a></li>
     <li><a href="#resume">Resume</a></li>
@@ -27,26 +28,32 @@
 
 <main>
 
-<!-- HERO (FIXED STRUCTURE) -->
+<!-- HERO -->
 <section id="hero">
+  <p class="label">Hello, I am</p>
 
   <div class="hero-top">
 
-    <!-- PROFILE PIC -->
     <div class="avatar-wrap">
       <div class="avatar-ring">
         <div class="avatar-inner">
-          <img src="project1.jpg" alt="Profile Picture">
+
+          <img src="https://api.dicebear.com/9.x/pixel-art/svg?seed=AlexRivera&backgroundColor=1a0a2e&skinColor=f5cfa0"
+               alt="Alexanne Mana-ay profile photo"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+
+          <div class="avatar-fallback" style="display:none">AM</div>
         </div>
       </div>
+
+      <div class="avatar-status" title="Available for work"></div>
     </div>
 
-    <!-- INFO -->
     <div class="hero-info">
       <div class="hero-name">Alexanne Mana-ay</div>
       <div class="hero-role">Student</div>
       <div class="hero-course">Bachelor of Science in Information Technology</div>
-      <div class="hero-location">📍 Iloilo City, Philippines</div>
+      <div class="hero-location">Iloilo City, Philippines</div>
     </div>
 
   </div>
@@ -54,21 +61,24 @@
   <h1>I build clean and aesthetic <br>web applications.</h1>
 
   <p class="hook">
-    I am an aspiring IT student passionate about building user-focused digital solutions.
+    I am an aspiring Information Technology student with a strong interest in building practical and user-focused digital solutions.
+    I have foundational skills in programming, web development, and database management, with experience using HTML, CSS, JavaScript,
+    and basic backend tools. I am also knowledgeable in troubleshooting, system maintenance, and software applications.
+    I am detail-oriented, eager to learn, and committed to improving my technical and problem-solving abilities.
   </p>
 
   <div class="badges">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
     <span class="badge">JavaScript</span>
-    <span class="badge">Python</span>
     <span class="badge">Cloudflare</span>
+    <span class="badge">Python</span>
   </div>
 
   <div class="btn-row">
     <a href="#projects" class="btn">See My Work</a>
-    <a href="https://www.linkedin.com/" class="btn-ghost" target="_blank">LinkedIn ↗</a>
-    <a href="https://github.com/" class="btn-ghost" target="_blank">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" class="btn-ghost" target="_blank">LinkedIn ↗</a>
+    <a href="https://github.com/lexzyaanam" class="btn-ghost" target="_blank">GitHub ↗</a>
   </div>
 
 </section>
@@ -80,13 +90,33 @@
 
   <div class="project">
     <p class="project-title">Avatar Mech Store</p>
-    <p class="project-desc">Responsive mech product showcase website.</p>
+    <p class="project-desc">
+      <strong>Problem:</strong> The Avatar Mech Store lacks an engaging, responsive design and interactive features.
+    </p>
+    <div class="project-stack">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+    </div>
+    <div class="project-links">
+      <a href="https://lexzyaanam.github.io/">Live Demo ↗</a>
+    </div>
   </div>
 
   <div class="project">
     <p class="project-title">Ghostly Adventure</p>
-    <p class="project-desc">Interactive spooky themed web experience.</p>
+    <p class="project-desc">
+      <strong>Problem:</strong> The Ghostly Adventure lacks an immersive and interactive experience.
+    </p>
+    <div class="project-stack">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/lexzyaanam">GitHub ↗</a>
+    </div>
   </div>
+
 </section>
 
 <!-- RESUME -->
@@ -94,31 +124,64 @@
   <p class="label">Resume</p>
   <h2>Skills & Experience</h2>
 
-  <div class="skill-list">
-    <span class="skill">HTML</span>
-    <span class="skill">CSS</span>
-    <span class="skill">JavaScript</span>
+  <div class="skill-group">
+    <p class="skill-group-name">Frontend</p>
+    <div class="skill-list">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+    </div>
   </div>
 
-  <div class="exp">
-    <p class="exp-role">Self-Projects & Academic Work</p>
-    <p class="exp-desc">
-      Developed responsive websites using HTML, CSS, and JavaScript.<br>
-      Built CRUD applications and portfolio projects.<br>
-      Learned Git, databases, and web development fundamentals.
-    </p>
+  <div class="skill-group">
+    <p class="skill-group-name">Backend</p>
+    <div class="skill-list">
+      <span class="skill">Node.js</span>
+      <span class="skill">Python</span>
+      <span class="skill">REST APIs</span>
+      <span class="skill">Java</span>
+    </div>
   </div>
+
 </section>
 
-<!-- CONTACT (FIXED - ONLY ONE SECTION) -->
+<!-- CONTACT -->
 <section id="contact">
   <p class="label">Contact</p>
   <h2>Let's Talk</h2>
 
+  <p style="color:var(--muted);font-size:.95rem;margin-bottom:1.8rem;">
+    Open to full-time roles, contracts, and collaborations.
+  </p>
+
   <div class="contact-methods">
 
     <div class="c-method">
-      <div class="c-icon">📩</div>
+      <div class="c-icon">💼</div>
+      <div>
+        <div class="c-label">LinkedIn</div>
+        <div class="c-val">
+          <a href="https://www.linkedin.com/in/mana-ay-alexanne-s-bb6b40330/" target="_blank">
+            linkedin.com/in/mana-ay-alexanne-s-bb6b40330
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-method">
+      <div class="c-icon">📁</div>
+      <div>
+        <div class="c-label">GitHub</div>
+        <div class="c-val">
+          <a href="https://github.com/lexzyaanam" target="_blank">
+            github.com/lexzyaanam
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-method">
+      <div class="c-icon">✉️</div>
       <div>
         <div class="c-label">Email</div>
         <div class="c-val">manaay.alexanne01@gmail.com</div>
@@ -127,44 +190,15 @@
 
   </div>
 
-  <!-- FORM (FIXED) -->
-  <form class="form-grid"
-        action="https://formsubmit.co/manaay.alexanne01@gmail.com"
-        method="POST">
-
-    <input type="hidden" name="_captcha" value="false">
-
-    <div class="form-group">
-      <label>Name</label>
-      <input type="text" name="name" placeholder="Your Name" required>
-    </div>
-
-    <div class="form-group">
-      <label>Email</label>
-      <input type="email" name="email" placeholder="Your Email" required>
-    </div>
-
-    <div class="form-group">
-      <label>Message</label>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-    </div>
-
-    <button type="submit" class="btn">Send Message →</button>
-
-  </form>
-
 </section>
 
 </main>
 
-<!-- FOOTER -->
 <footer>
   <span>© 2026 Alexanne Mana-ay · Iloilo PH</span>
-  <span>
-    <a href="https://github.com/" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-  </span>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
