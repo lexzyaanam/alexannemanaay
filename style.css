@@ -73,43 +73,84 @@ nav {
   gap: 20px;
   margin-bottom: 20px;
 }
+/* ─── PROFILE PIC (FIXED NEON RING) ─── */
 
-/* AVATAR */
 .avatar-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
-  
+
+/* OUTER RING */
+.avatar-ring {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  padding: 4px;
+
+  background: conic-gradient(
+    var(--neon, #ff2d8b),
+    var(--neon2, #7c3aed),
+    var(--neon3, #00e5ff),
+    var(--neon, #ff2d8b)
+  );
+
+  box-shadow:
+    0 0 20px rgba(255,45,139,0.6),
+    0 0 45px rgba(124,58,237,0.3);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  animation: spinRing 6s linear infinite;
+  will-change: transform;
 }
 
+/* ROTATION */
+@keyframes spinRing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* INNER FIXED CIRCLE (COUNTER ROTATION FIX) */
 .avatar-inner {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   overflow: hidden;
   background: #111;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* IMPORTANT: keeps image stable */
+  transform: rotate(0deg);
 }
 
+/* PROFILE IMAGE */
 .avatar-inner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 0.3s;
+  display: block;
+
+  transition: transform 0.4s ease;
 }
 
-.avatar-inner img:hover {
-  transform: scale(1.1);
+/* OPTIONAL HOVER ZOOM */
+.avatar-inner:hover img {
+  transform: scale(1.08);
 }
 
-.avatar-status {
-  width: 14px;
-  height: 14px;
-  background: limegreen;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  box-shadow: 0 0 10px limegreen;
-}
 
 /* HERO TEXT */
 .hero-name {
